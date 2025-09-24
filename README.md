@@ -32,8 +32,8 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/2FA-Auth-App.git
-   cd 2FA-Auth-App
+   git clone https://github.com/your-username/auth-react-2fa.git
+   cd auth-react-2fa
    ```
 2. Install dependencies:
 ### npm install
