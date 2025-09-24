@@ -7,9 +7,7 @@
 - [Usage](#usage)
 - [Development](#development)
 - [API Endpoints](#api-endpoints)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+
 
 ## Features
 - 2FA code input with individual digit fields.
@@ -52,7 +50,7 @@ npm run dev
 Open your browser and navigate to http://localhost:5173 (or the port specified in the terminal).
 Enter a 6-digit code from your Google Authenticator app to test the 2FA verification.
 
-Development
+### Development
 Prerequisites
 
 Node.js (v16 or later)
@@ -82,7 +80,7 @@ text2FA-Auth-App/
 Environment Variables
 Create a .env file in the root directory if you need custom environment variables (e.g., API URLs):
 textVITE_API_URL=/api
-API Endpoints
+### API Endpoints
 
 POST /api/verify-2fa: Verifies the 2FA code.
 
