@@ -64,7 +64,7 @@ npm run preview: Previews the production build locally.
 
 ### Project Structure
 ```
-text2FA-Auth-App/
+auth-react-2fa/
 ├── src/
 │   ├── components/        # React components (e.g., LoginForm, CodeForm)
 │   ├── hooks/            # Custom hooks (e.g., useCodeVerifyMutation)
@@ -79,7 +79,7 @@ text2FA-Auth-App/
 ```
 Environment Variables
 Create a .env file in the root directory if you need custom environment variables (e.g., API URLs):
-textVITE_API_URL=/api
+VITE_API_URL=/api
 ### API Endpoints
 
 POST /api/verify-2fa: Verifies the 2FA code.
