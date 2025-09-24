@@ -36,7 +36,9 @@
    cd auth-react-2fa
    ```
 2. Install dependencies:
-### npm install
+```bash
+npm install
+```
 
 Ensure you have Node.js (v16 or later) and npm installed.
 
