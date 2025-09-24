@@ -26,7 +26,7 @@
 - **Form Management**: React Hook Form, Yup
 - **Build Tool**: Vite
 - **HTTP Client**: Axios
-- **Code Quality**: ESLint, Prettier (optional, add if used)
+- **Code Quality**: ESLint, Prettier
 
 ## Installation
 
