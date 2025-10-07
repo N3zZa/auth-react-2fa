@@ -6,7 +6,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Development](#development)
-- [API Endpoints](#api-endpoints)
+- [Project Structure](#project-structure)
 
 
 ## Features
@@ -32,7 +32,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/auth-react-2fa.git
+   git clone https://github.com/N3zZa/auth-react-2fa.git
    cd auth-react-2fa
    ```
 2. Install dependencies:
@@ -49,7 +49,7 @@ Start the development server:
 npm run dev
 ```
 
-Open your browser and navigate to http://localhost:5173 (or the port specified in the terminal).
+Open your browser and navigate to http://localhost:3000 (or the port specified in the terminal).
 Enter a 6-digit code from your Google Authenticator app to test the 2FA verification.
 
 ### Development
@@ -79,17 +79,4 @@ auth-react-2fa/
 ├── package.json          # Project dependencies and scripts
 └── README.md             # This file
 ```
-Environment Variables
-Create a .env file in the root directory if you need custom environment variables (e.g., API URLs):
-VITE_API_URL=/api
-### API Endpoints
 
-POST /api/verify-2fa: Verifies the 2FA code.
-
-Request Body: { code: string }
-Success Response: { success: boolean, message: string }
-Error Responses:
-
-401: Invalid 2FA code
-403: Code expired
-500: Server error
